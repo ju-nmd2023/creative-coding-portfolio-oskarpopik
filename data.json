@@ -1,8 +1,13 @@
 [
   {
     "file": "experiments/portfolio-01-Braille.js",
-    "name": "Braille",
+    "name": "Language in Dots",
     "description": "Starting from a course example of a grid, I modified the structure into 2x3 cells resembling a Braille cell. Instead of abstract patterns, dots are randomly placed in these positions, creating the impression of Braille-like characters. This simple change transformed the grid into something more symbolic and language-like."
+  },
+  {
+    "file": "experiments/portfolio-02-Braille.js",
+    "name": "Braille Grid in Motion",
+    "description": "Each cell reveals itself in sequence, creating the feeling of reading or writing. The grid becomes not just a field of symbols, but a story unfolding in time."
   },
   {
     "file": "experiments/portfolio-04-GeorgNees.js",
