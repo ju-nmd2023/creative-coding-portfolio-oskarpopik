@@ -1,7 +1,22 @@
 [
   {
-    "file": "experiments/portfolio-Braille-01.js",
-    "name": "portfolio-01-Braille",
+    "file": "experiments/portfolio-01-Braille.js",
+    "name": "Braille",
     "description": "Starting from a course example of a grid, I modified the structure into 2x3 cells resembling a Braille cell. Instead of abstract patterns, dots are randomly placed in these positions, creating the impression of Braille-like characters. This simple change transformed the grid into something more symbolic and language-like."
+  },
+  {
+    "file": "experiments/portfolio-04-GeorgNees.js",
+    "name": "Random Red Field",
+    "description": "A grid of circles, each filled with a slightly different shade of red. The colors are chosen by chance, so patterns appear and dissolve as you look."
+  },
+  {
+    "file": "experiments/portfolio-03-GeorgNees.js",
+    "name": "Alpha field",
+    "description": "Circles begin as barely perceptible traces and slowly gain weight as the grid unfolds. What starts as emptiness turns into presence, showing how repetition and gradual change can bring a shape into focus."
+  },
+  {
+    "file": "experiments/portfolio-05-GeorgNees.js",
+    "name": "Generative Grid of Converging Lines",
+    "description": "Inspired by Georg Nees and his early experiments with computer graphics, this work explores how simple rules give rise to form. With each step in the grid, new lines are added at random angles. At first the marks seem scattered, but gradually the structure of a circle begins to emerge."
   }
 ]
