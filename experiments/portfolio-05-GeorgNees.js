@@ -23,7 +23,7 @@ function drawLinesInCircle(cx, cy, d, count) {
   strokeWeight(0.2);
   noFill();
 
-  // the following 40 lines of code were generated with the help of ChatGPT
+  // the following 40 lines of code were written with the help of ChatGPT
   for (let i = 0; i < count; i++) {
     // random line direction
     const theta = random(TWO_PI);
@@ -80,7 +80,7 @@ function draw() {
 
   for (let y = 0; y < rows; y++) {
     for (let x = 0; x < cols; x++) {
-      // the following 25 lines of code were generated with the help of ChatGPT
+      // the following 25 lines of code were written with the help of ChatGPT
       // calculate the x-position of this circle’s center
       // startX = the center of the first circle in the row
       // x * size = move right by one "cell width" for each column

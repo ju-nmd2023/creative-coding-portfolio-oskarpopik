@@ -35,7 +35,7 @@ function draw() {
       const cx = startX + x * size;
       const cy = startY + y * size;
 
-      // The following 5 lines of code were adapted from ChatGPT
+      // The following 5 lines of code were written with the help of ChatGPT
 
       // gives each ellipse a unique number, scanning across the grid (linear index across rows)
       const index = y * cols + x;

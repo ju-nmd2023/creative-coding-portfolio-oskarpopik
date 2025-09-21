@@ -25,7 +25,7 @@ function setup() {
   // control how fast draw() runs (FPS)
   frameRate(5);
 
-  // the following 19 lines of code were generated with the help of ChatGPT
+  // the following 19 lines of code were written with the help of ChatGPT
   // calculate the grid’s horizontal center offset
   const centerX = (width - size) / 2;
   // calculate the grid’s vertical center offset
@@ -73,8 +73,9 @@ function drawElement(seed) {
       const px = (cx + 0.5) * sx;
       const py = (ry + 0.5) * sy;
 
+      // p5’s random() (seedable) instead of Math.random() so each of the tile’s dots are stable
       // chance to draw this dot
-      if (Math.random() < 0.3) {
+      if (random() < 0.3) {
         fill(0, 0, 0);
         // dot diameter based on row height (sy)
         const dotD = sy * 0.6;
@@ -86,14 +87,14 @@ function drawElement(seed) {
 
 function draw() {
   // clear background to white
-  background(255);
+  // background(255);
 
   // set style for possible outlines (not used here but kept for consistency)
   noFill();
   stroke(0);
   strokeWeight(1);
 
-  // the following 24 lines of code were generated with the help of ChatGPT
+  // the following 24 lines of code were written with the help of ChatGPT
   // determine how many tiles to draw so far (from 0 up to revealCount)
   const N = min(revealCount, tiles.length);
 

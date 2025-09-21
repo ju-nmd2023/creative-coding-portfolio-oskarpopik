@@ -2,17 +2,17 @@
   {
     "file": "experiments/portfolio-01-Braille.js",
     "name": "Language in Dots",
-    "description": "Starting from a course example of a grid, I modified the structure into 2x3 cells resembling a Braille cell. Instead of abstract patterns, dots are randomly placed in these positions, creating the impression of Braille-like characters. This simple change transformed the grid into something more symbolic and language-like."
+    "description": "Starting from a simple grid, I modified the structure into 2x3 cells resembling a Braille cell. Instead of abstract patterns, dots are randomly placed in these positions, creating the impression of Braille-like characters. This simple change transformed the grid into something more symbolic and language-like."
   },
   {
     "file": "experiments/portfolio-02-Braille.js",
     "name": "Braille Grid in Motion",
-    "description": "Each cell reveals itself in sequence, creating the feeling of reading or writing. The grid becomes not just a field of symbols, but a story unfolding in time."
+    "description": "Each cell reveals itself in sequence, creating the feeling of writing. The grid becomes not just a field of symbols, but a story unfolding in time."
   },
   {
     "file": "experiments/portfolio-04-GeorgNees.js",
     "name": "Random Red Field",
-    "description": "A grid of circles, each filled with a slightly different shade of red. The colors are chosen by chance, so patterns appear and dissolve as you look."
+    "description": "This is a grid of circles, each filled with a slightly different shade of red. The colors are chosen by chance, so patterns appear and dissolve as you look."
   },
   {
     "file": "experiments/portfolio-03-GeorgNees.js",
@@ -23,5 +23,20 @@
     "file": "experiments/portfolio-05-GeorgNees.js",
     "name": "Generative Grid of Converging Lines",
     "description": "Inspired by Georg Nees and his early experiments with computer graphics, this work explores how simple rules give rise to form. With each step in the grid, new lines are added at random angles. At first the marks seem scattered, but gradually the structure of a circle begins to emerge."
+  },
+  {
+    "file": "experiments/portfolio-06-HobbsFlowField.js",
+    "name": "Static Flow",
+    "description": "Inspired by Tyler Hobbs' flow fields. Thousands of particles follow an invisible flow, leaving soft trails that merge into streams."
+  },
+  {
+    "file": "experiments/portfolio-07-HobbsFlowField.js",
+    "name": "One-Ink Current",
+    "description": "Inspired by Tyler Hobbs' flow fields. A single color follows smooth turns. Layers build a quiet flow."
+  },
+  {
+    "file": "experiments/portfolio-08-HobbsFlowField.js",
+    "name": "Burnt Overprint",
+    "description": "Inspired by Tyler Hobbs' flow fields. Two palletes stream through a flow field, overlapping into rich, inky knots."
   }
 ]
