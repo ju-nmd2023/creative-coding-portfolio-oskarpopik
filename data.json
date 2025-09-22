@@ -17,12 +17,12 @@
   {
     "file": "experiments/portfolio-03-GeorgNees.js",
     "name": "Alpha field",
-    "description": "Circles begin as barely perceptible traces and slowly gain weight as the grid unfolds. What starts as emptiness turns into presence, showing how repetition and gradual change can bring a shape into focus."
+    "description": "The grid begins with almost invisible circles that grow heavier step by step. Through repetition, what was once empty space becomes a visible form."
   },
   {
     "file": "experiments/portfolio-05-GeorgNees.js",
-    "name": "Generative Grid of Converging Lines",
-    "description": "Inspired by Georg Nees and his early experiments with computer graphics, this work explores how simple rules give rise to form. With each step in the grid, new lines are added at random angles. At first the marks seem scattered, but gradually the structure of a circle begins to emerge."
+    "name": "Hidden Geometry",
+    "description": "Inspired by Georg Nees and his early experiments with computer graphics, this work explores the idea of structure hiding in randomness. With each line added at a random angle, the grid gradually reveals a circle."
   },
   {
     "file": "experiments/portfolio-06-HobbsFlowField.js",
@@ -37,6 +37,6 @@
   {
     "file": "experiments/portfolio-08-HobbsFlowField.js",
     "name": "Burnt Overprint",
-    "description": "Inspired by Tyler Hobbs' flow fields. Two palletes stream through a flow field, overlapping into rich, inky knots."
+    "description": "Inspired by Tyler Hobbs' flow fields. Two palletes stream through a flow field, overlapping into inky knots."
   }
 ]
