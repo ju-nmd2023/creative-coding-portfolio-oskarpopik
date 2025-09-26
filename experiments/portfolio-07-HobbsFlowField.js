@@ -5,15 +5,15 @@
 // size of each grid cell (smaller means more detail)
 let cellSize = 20;
 // how much the field rotates (1.0 - 8.0)
-let angleMult = 2.0;
+let angleMult = 2.5;
 // how fast the field changes over time
 let zSpeed = 0.003;
 // how many moving points to draw
-let numParticles = 4000;
+let numParticles = 10000;
 // drawing thickness for trails
 let lineThickness = 1;
 // max speed of each particle
-let particleSpeed = 2;
+let particleSpeed = 4;
 // let particleSpeed = 4;
 // background color (RGB)
 let bgColor = [251, 247, 233];

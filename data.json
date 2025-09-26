@@ -35,8 +35,13 @@
     "description": "Inspired by Tyler Hobbs' flow fields. A single color follows smooth turns. Layers build a quiet flow."
   },
   {
+    "file": "experiments/portfolio-09-HobbsFlowField_synthwave.js",
+    "name": "Neon Sunrise",
+    "description": "Night turning into day. Inspired by the vibe of 80s Vice City - Miami, filled with the sound of synthwave."
+  },
+  {
     "file": "experiments/portfolio-08-HobbsFlowField.js",
     "name": "Burnt Overprint",
-    "description": "Inspired by Tyler Hobbs' flow fields. Two palletes stream through a flow field, overlapping into inky knots."
+    "description": "Blue and red paths branch like blood vessels, but their collisions give an eerie feeling of rust and quiet decay."
   }
 ]

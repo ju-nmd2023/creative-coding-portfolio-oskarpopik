@@ -1,3 +1,5 @@
+// Uses a .wav file for audio
+
 // Inspired by Tyler Hobbs' flow field article, adapted for p5.js
 // https://www.tylerxhobbs.com/words/flow-fields
 
@@ -9,11 +11,11 @@ let angleMult = 8.0;
 // how fast the field changes over time
 let zSpeed = 0.003;
 // how many moving points to draw
-let numParticles = 2000;
+let numParticles = 15000;
 // drawing thickness for trails
-let lineThickness = 1;
+let lineThickness = 1.0;
 // max speed of each particle
-let particleSpeed = 2;
+let particleSpeed = 1.5;
 // let particleSpeed = 4;
 // background color (RGB)
 let bgColor = [241, 241, 242];
@@ -23,8 +25,8 @@ let strokeColor = [55, 94, 151, 60];
 // second stroke color (RGBA)
 let strokeColor2 = [251, 101, 66, 60];
 
-// amount of frames after which the draw stops (30s at 60fps)
-let maxFrames = 1000;
+// amount of frames after which the draw stops (~ 27 s at 60fps)
+let maxFrames = 1200;
 
 // Variables
 // number of columns in the grid
@@ -41,8 +43,19 @@ let particles = [];
 let color1;
 let color2;
 
+// global variable for .wav
+let wavPlayer;
+let ended = false;
+
 function setup() {
   createCanvas(windowWidth, windowHeight);
+
+  // setup for the player
+  wavPlayer = new Tone.Player({
+    url: "experiments/mixkit-cinematic-mystery-heartbeat-transition-492.wav",
+    loop: true,
+    autostart: true,
+  }).toDestination();
 
   // Set drawing styles with variables
   background(bgColor);
@@ -77,8 +90,21 @@ function indexFor(x, y) {
 }
 
 function draw() {
-  // Make it static after some time
-  if (frameCount > maxFrames) noLoop();
+  // Make it static after some time & make the music stop with a fade
+  if (frameCount > maxFrames && !ended) {
+    ended = true;
+
+    // Fade out the .wav
+    if (typeof wavPlayer !== "undefined" && wavPlayer) {
+      // fade
+      wavPlayer.volume.rampTo(-Infinity, 5.0);
+      // stop after fade
+      wavPlayer.stop("+5.0");
+    }
+
+    noLoop();
+    return;
+  }
 
   // the following 18 lines of code were written with the help of ChatGPT
   // calculate the flow field directions for this frame
@@ -182,3 +208,9 @@ function step(p, flowField) {
   edges(p);
   drawParticle(p);
 }
+
+// function mousePressed() {
+//   if (Tone.context.state !== "running") {
+//     Tone.start(); // or Tone.context.resume()
+//   }
+// }
