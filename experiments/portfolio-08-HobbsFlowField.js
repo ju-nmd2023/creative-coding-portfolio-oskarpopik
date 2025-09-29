@@ -5,7 +5,7 @@
 
 // Parameters
 // size of each grid cell (smaller means more detail)
-let cellSize = 50;
+let cellSize = 10;
 // how much the field rotates (1.0 - 8.0)
 let angleMult = 8.0;
 // how fast the field changes over time
