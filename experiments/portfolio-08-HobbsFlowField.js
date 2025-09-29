@@ -1,4 +1,4 @@
-// Uses a .wav file for audio
+// Uses a .wav file for audio from Mixkit. It is used under the Mixkit Sound Effects Free License
 
 // Inspired by Tyler Hobbs' flow field article, adapted for p5.js
 // https://www.tylerxhobbs.com/words/flow-fields
