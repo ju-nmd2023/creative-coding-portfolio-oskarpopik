@@ -11,7 +11,7 @@ let angleMult = 8.0;
 // how fast the field changes over time
 let zSpeed = 0.003;
 // how many moving points to draw
-let numParticles = 15000;
+let numParticles = 30000;
 // drawing thickness for trails
 let lineThickness = 1.0;
 // max speed of each particle
